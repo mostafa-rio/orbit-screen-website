@@ -1,5 +1,5 @@
 import { Download } from 'lucide-react';
-
+import DownloadDropdown from './DownloadDropdown';
 
 export default function Navbar() {
   return (
@@ -17,9 +17,7 @@ export default function Navbar() {
       <div style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
         <a href="#features" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>Features</a>
         <a href="#showcase" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>Showcase</a>
-        <a href="https://github.com/mgna3/screen-studio-clone" className="btn-primary" style={{ padding: '8px 20px', fontSize: '0.9rem' }}>
-          <Download size={16} /> Download
-        </a>
+        <DownloadDropdown />
       </div>
     </nav>
   );

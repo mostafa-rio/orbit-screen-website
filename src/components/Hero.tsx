@@ -1,6 +1,8 @@
 import { Download, MonitorPlay } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+import DownloadDropdown from './DownloadDropdown';
+
 export default function Hero() {
   return (
     <section style={{ paddingTop: '180px', paddingBottom: '80px', textAlign: 'center' }} className="section-container">
@@ -17,9 +19,7 @@ export default function Hero() {
         </p>
         
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
-          <a href="#" className="btn-primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
-            <Download size={20} /> Download for macOS
-          </a>
+          <DownloadDropdown large={true} />
           <a href="#showcase" className="btn-secondary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
             <MonitorPlay size={20} /> View Showcase
           </a>
