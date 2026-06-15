@@ -12,9 +12,9 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
       >
         <h1 className="gradient-text hero-title">
-          Beautiful screen recordings.<br />Made effortlessly.
+          Beautiful screen recordings. Made effortlessly.
         </h1>
-        <p style={{ fontSize: '1.25rem', color: 'var(--text-secondary)', maxWidth: '600px', margin: '0 auto 40px auto', letterSpacing: '-0.01em' }}>
+        <p className="hero-subtitle">
           Orbit Screen is a native macOS application that captures your screen and camera with zero performance hit using hardware acceleration.
         </p>
         <div className="hero-buttons">

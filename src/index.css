@@ -97,7 +97,8 @@ body {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   height: 500px;
   background: radial-gradient(circle, var(--accent-glow) 0%, rgba(5,5,5,0) 70%);
   z-index: -1;
@@ -106,11 +107,21 @@ body {
 
 /* Responsive Typography & Layout */
 .hero-title {
-  font-size: clamp(3rem, 12vw, 5rem);
+  font-size: clamp(2.5rem, 10vw, 5rem);
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 24px;
+  text-wrap: balance;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 
 .section-title {
