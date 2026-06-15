@@ -1,7 +1,7 @@
 import { Download, MonitorPlay } from 'lucide-react';
 import { motion } from 'framer-motion';
 
-import DownloadDropdown from './DownloadDropdown';
+import DownloadButton from './DownloadButton';
 
 export default function Hero() {
   return (
@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
-          <DownloadDropdown large={true} />
+          <DownloadButton large={true} />
           <a href="#showcase" className="btn-secondary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
             <MonitorPlay size={20} /> View Showcase
           </a>
