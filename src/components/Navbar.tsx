@@ -14,7 +14,7 @@ export default function Navbar() {
         <span style={{ fontWeight: 600, fontSize: '1.1rem', letterSpacing: '-0.02em' }}>Orbit Screen</span>
       </div>
       
-      <div style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
+      <div className="nav-links">
         <a href="#features" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>Features</a>
         <a href="#showcase" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.9rem', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>Showcase</a>
         <DownloadButton />

@@ -28,7 +28,7 @@ export default function Features() {
   return (
     <section id="features" className="section-container" style={{ paddingTop: '80px', paddingBottom: '80px' }}>
       <div style={{ textAlign: 'center', marginBottom: '64px' }}>
-        <h2 style={{ fontSize: '3rem', fontWeight: 600, letterSpacing: '-0.03em', marginBottom: '16px' }}>Engineered for creators.</h2>
+        <h2 className="section-title">Engineered for creators.</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem', maxWidth: '500px', margin: '0 auto' }}>Everything you need to create stunning screencasts, built into a lightning-fast native macOS app.</p>
       </div>
       

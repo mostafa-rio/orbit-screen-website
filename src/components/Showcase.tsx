@@ -4,7 +4,7 @@ export default function Showcase() {
   return (
     <section id="showcase" className="section-container" style={{ paddingTop: '80px', paddingBottom: '120px' }}>
       <div style={{ textAlign: 'center', marginBottom: '64px' }}>
-        <h2 style={{ fontSize: '3rem', fontWeight: 600, letterSpacing: '-0.03em', marginBottom: '16px' }}>See it in action.</h2>
+        <h2 className="section-title">See it in action.</h2>
         <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Sleek interfaces that stay out of your way.</p>
       </div>
 
@@ -17,7 +17,7 @@ export default function Showcase() {
           style={{ display: 'flex', gap: '48px', alignItems: 'center', flexWrap: 'wrap' }}
         >
           <div style={{ flex: '1 1 400px' }}>
-            <h3 style={{ fontSize: '2rem', marginBottom: '16px', letterSpacing: '-0.02em' }}>Picture-in-picture perfection.</h3>
+            <h3 className="subsection-title">Picture-in-picture perfection.</h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Float above your work with dynamic camera overlays. Customize the shape, adjust the corner radius, and match your brand with custom glowing borders.</p>
           </div>
           <div style={{ flex: '1 1 500px' }}>
@@ -36,7 +36,7 @@ export default function Showcase() {
             <img src="/mockups/settings.png" alt="Settings Panel" style={{ width: '100%', borderRadius: '24px', border: '1px solid var(--border-color)', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }} />
           </div>
           <div style={{ flex: '1 1 400px' }}>
-            <h3 style={{ fontSize: '2rem', marginBottom: '16px', letterSpacing: '-0.02em' }}>Configure in real-time.</h3>
+            <h3 className="subsection-title">Configure in real-time.</h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Tweak your camera radius or change border colors on the fly. The native settings panel communicates instantly with the camera overlay, so you never have to restart your recording.</p>
           </div>
         </motion.div>
