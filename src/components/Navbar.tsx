@@ -1,4 +1,4 @@
-import { Download } from 'lucide-react';
+
 import DownloadButton from './DownloadButton';
 
 export default function Navbar() {
