@@ -8,7 +8,7 @@ export default function Footer() {
       <p style={{ color: 'var(--text-secondary)', marginBottom: '24px' }}>Beautiful screen recordings for macOS.</p>
       
       <div style={{ display: 'flex', justifyContent: 'center', gap: '24px' }}>
-        <a href="https://github.com/mgna3/screen-studio-clone" style={{ color: 'var(--text-secondary)', textDecoration: 'none', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
+        <a href="https://github.com/mostafa-rio/orbit-screen" style={{ color: 'var(--text-secondary)', textDecoration: 'none', transition: 'color 0.2s' }} onMouseEnter={(e) => e.currentTarget.style.color = '#fff'} onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-secondary)'}>
           GitHub Repository
         </a>
       </div>
