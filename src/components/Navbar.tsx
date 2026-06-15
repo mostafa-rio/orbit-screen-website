@@ -3,7 +3,7 @@ import DownloadButton from './DownloadButton';
 
 export default function Navbar() {
   return (
-    <nav className="glass" style={{
+    <nav className="glass nav-container" style={{
       position: 'fixed', top: '24px', left: '50%', transform: 'translateX(-50%)',
       width: 'calc(100% - 48px)', maxWidth: '1000px', borderRadius: '100px',
       padding: '12px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center',
@@ -11,7 +11,7 @@ export default function Navbar() {
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
         <img src="/orbit-logo.png" alt="Orbit Logo" style={{ width: '28px', height: '28px', borderRadius: '6px' }} />
-        <span style={{ fontWeight: 600, fontSize: '1.1rem', letterSpacing: '-0.02em' }}>Orbit Screen</span>
+        <span className="nav-brand-text" style={{ fontWeight: 600, fontSize: '1.1rem', letterSpacing: '-0.02em' }}>Orbit Screen</span>
       </div>
       
       <div className="nav-links">

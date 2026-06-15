@@ -169,4 +169,14 @@ body {
   .hero-buttons > * {
     width: 100%;
   }
+
+  .nav-container {
+    padding: 10px 16px !important;
+    width: calc(100% - 24px) !important;
+    gap: 12px;
+  }
+  
+  .nav-brand-text {
+    font-size: 0.95rem !important;
+  }
 }
